@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Development;
+Comment[zh_CN]=开发工具
+Comment=
+Exec=/usr/local/android-studio/bin/studio.sh
+GenericName[zh_CN]=IDE
+GenericName=IDE
+Icon=/usr/local/android-studio/bin/studio.png
+MimeType=
+Name[zh_CN]=Android studio
+Name=Android studio
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=owen

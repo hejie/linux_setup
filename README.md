@@ -22,9 +22,10 @@ make && sudo make install
 输入reg 若寄存器列表里无”* 或 “+ 寄存器，则可能是由于没有安装vim的图形界面所致。Debian/Ubuntu下可以通过安装vim-gnome解决。
 sudo apt-get install vim-gnome
 
-5. 解压/压缩命令
+5. 解压/压缩命令,解压并且重命名
+```ruby
+$ sudo mkdir  /usr/local/jdk1.8 && sudo  tar -xzvf ./jdk-8u111-linux-x64.tar.gz -C /usr/local/jdk1.8 --strip-components 1
 
-> $ sudo mkdir  /usr/local/jdk1.8 && sudo  tar -xzvf ./jdk-8u111-linux-x64.tar.gz -C /usr/local/jdk1.8 --strip-components 1
- 
+```
 
 
