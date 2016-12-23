@@ -23,10 +23,8 @@ make && sudo make install
 sudo apt-get install vim-gnome
 
 5. 解压/压缩命令
-```ruby
 
 > $ sudo mkdir  /usr/local/jdk1.8 && sudo  tar -xzvf ./jdk-8u111-linux-x64.tar.gz -C /usr/local/jdk1.8 --strip-components 1
-
-```
+ 
 
 
