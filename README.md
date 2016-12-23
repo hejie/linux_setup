@@ -1,16 +1,16 @@
 # linux_setup
 ![image](https://github.com/hejie/linux_setup/raw/master/pics/setup.jpg)
 
-1.删除libreoffice
+1. 删除libreoffice
 sudo apt-get remove libreoffice-common
 
-2.删除Amazon的链接
+2. 删除Amazon的链接
 sudo apt-get remove unity-webapps-common
 
-3.命令行模式复制到系统剪切板
+3. 命令行模式复制到系统剪切板
 xclip -sel clip < ~/.ssh/id_rsa.pub
 
-4.vim 系统剪切板
+4. vim 系统剪切板
 注意附加
 sudo apt-get build-dep vim
 sudo apt-get install python-dev
@@ -21,5 +21,12 @@ git clone https://github.com/vim/vim.git
 make && sudo make install
 输入reg 若寄存器列表里无”* 或 “+ 寄存器，则可能是由于没有安装vim的图形界面所致。Debian/Ubuntu下可以通过安装vim-gnome解决。
 sudo apt-get install vim-gnome
+
+5. 解压/压缩命令
+```ruby
+
+$ sudo mkdir  /usr/local/jdk1.8 && sudo  tar -xzvf ./jdk-8u111-linux-x64.tar.gz -C /usr/local/jdk1.8 --strip-components 1
+
+```
 
 
